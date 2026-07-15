@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "m6x11"; /* set name */
+  src: url("m6x11omega.ttf"); /* url of the font */
+}
+
+html {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 00%;
+    font-family: "m6x11";
+    overflow: hidden;
+}
+#main {
+    background-color: black;
+    min-width: 45vw;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top:-5px;
+    border-style: dotted;
+    border-color: red;
+    max-height: 930px;
+    overflow: hidden;
+}
+
+#sticker {
+    width: 60px;
+    height: 60px;
+}
+#icon {
+    width: auto;
+    height: 35px;
+}
+#glitter-text {
+    width: auto;
+    height: 45px;
+}
+#text {
+    font-size: 20px;
+    position: relative;
+    top:-25px;
+}
+#icon_large {
+    width: auto;
+    height: 40px;
+    padding-left: 1px;
+    padding-right: 1px;
+    position: relative;
+    top:-55px;
+}
+#ruby {
+    height: 500px;
+    width: auto;
+    position: relative;
+    top:-55px;
+}
+#buttons {
+    position: relative;
+    top:-45px;
+}
